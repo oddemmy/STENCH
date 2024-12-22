@@ -32,20 +32,6 @@ body{
     text-align: center;
    
 }
-#copy-ca {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      background-color: #265d66; /* Header color */
-      color: white; /* Body color */
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 14px;
-    }
-    #copy-ca:hover {
-      background-color: #1e4b54; 
 
 
 /* about */
