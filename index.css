@@ -25,7 +25,7 @@ body{
 
 /* ca */
 .contract-address{
-    margin-top: 5%;
+    margin-top: 10vh;
     background-color: #265d66;
     color: white;
 }
