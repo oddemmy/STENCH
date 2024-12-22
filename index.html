@@ -99,9 +99,10 @@
         <section id="home" class="home">
             <img class="home-img" src="stench 1.jpg" alt="">
         </section>
-        <section id="ca" class="contract-address">
-            <h1>CA Coming Soon...</h1>
-        </section>
+      <section id="ca" class="contract-address">
+    <h1 class="ca-text" id="ca-text">4P8FbwvsS3YmB2kAa5B6uYqU9ycSugdpCa9HsJNKPEQ7</h1>
+    <button id="copy-ca">Copy CA</button>
+  </section>
         <section id="about" class="about">
             <h1>ABOUT</h1>
             <p>Stench, the Grinch’s filthy brother, was a chaos-loving creature who thrived in garbage and grime. While the Grinch schemed grandly, Stench preferred small, dirty pranks—spoiling Whoville picnics, dumping trash in pristine streets, and hoarding bananas and cans in his swampy lair. Though his antics were foul, some whispered that deep beneath the muck lay a spark of goodness, buried too deep for even Stench to notice.
@@ -193,6 +194,24 @@ navLink.forEach((link) => {
     nav.classList.remove("show");
   });
 });
+
+
+
+ // JavaScript to copy the CA to clipboard
+    document.getElementById("copy-ca").addEventListener("click", function () {
+      const caText = document.getElementById("ca-text").innerText;
+
+      // Create a temporary textarea to copy the text
+      const tempInput = document.createElement("textarea");
+      tempInput.value = caText;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+
+      // Alert the user that the CA was copied
+      alert("Contract Address copied to clipboard!");
+    });
 
    
 </script>
