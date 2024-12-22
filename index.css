@@ -35,6 +35,11 @@ body{
 #ca-text{
     font-size: 10px;
 }
+  .contract-address h1 {
+      font-size: 24px;
+      color: white;
+      text-align: center;
+  }
 
 
 /* about */
