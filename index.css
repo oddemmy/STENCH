@@ -30,7 +30,7 @@ body{
 }
 .contract-address h1{
     text-align: center;
-    font-size: 35px;
+   
 }
 
 
@@ -367,9 +367,6 @@ header .mobile-nav .close {
     }
 }
 @media (max-width: 576px) {
-    .contract-address h1{
-        font-size: 27px;
-    }
     .about p{
         font-size: 20px;
     }
