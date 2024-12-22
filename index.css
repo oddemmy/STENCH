@@ -25,6 +25,7 @@ body{
 
 /* ca */
 .contract-address{
+    padding: 5%;
     background-color: #265d66;
     color: white;
 }
@@ -40,7 +41,7 @@ body{
 
 /* about */
 .about{
-    padding: 5%;
+    padding: 7% 5% 7% 5%;
 }
 .about h1{
     text-align: center;
@@ -61,7 +62,7 @@ body{
 
 /* tokenomics */
 .tokenomics{
-    padding: 5%;
+ padding: 7% 5% 7% 5%;
 }
 .tokenomics h1{
     font-size: 40px;
@@ -79,7 +80,7 @@ body{
     border-radius: 20px;
 }
 .roadmap{
-    padding: 5%;
+    padding: 7% 5% 7% 5%;
 }
 .roadmap h1{
     font-size: 35px;
