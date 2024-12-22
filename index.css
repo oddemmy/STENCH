@@ -41,7 +41,7 @@ body{
 
 /* about */
 .about{
-    padding: 7% 5% 7% 5%;
+    padding: 10% 5% 8% 5%;
 }
 .about h1{
     text-align: center;
@@ -62,7 +62,7 @@ body{
 
 /* tokenomics */
 .tokenomics{
- padding: 7% 5% 7% 5%;
+ padding: 10% 5% 8% 5%;
 }
 .tokenomics h1{
     font-size: 40px;
@@ -80,7 +80,7 @@ body{
     border-radius: 20px;
 }
 .roadmap{
-    padding: 7% 5% 7% 5%;
+    padding: 10% 5% 8% 5%;
 }
 .roadmap h1{
     font-size: 35px;
